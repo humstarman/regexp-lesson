@@ -28,7 +28,9 @@ def main():
     html += i[0]
     html += """">""" 
     html += i[1]
-    html += """</a>""" 
+    html += """</a></li>""" 
+  html += """</ul></body></html>""" 
+
 
   with open("06.html", "w", encoding = "utf-8") as f:
     f.write(html)
